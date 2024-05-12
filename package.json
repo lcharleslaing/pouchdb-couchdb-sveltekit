@@ -1,0 +1,40 @@
+{
+	"name": "pouchdb-couchdb-sveltekit",
+	"version": "1.0.0",
+	"description": "Package to streamline your sveltekit DB needs",
+	"main": "index.js",
+	"scripts": {
+		"test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+	},
+		"jest": {
+		"transform": {
+			"^.+\\.[t|j]sx?$": "babel-jest"
+		},
+		"testEnvironment": "node"
+	},
+	"repository": {
+		"type": "git",
+		"url": "http://"
+	},
+	"keywords": [
+		"pouchdb",
+		"couchdb",
+		"sveltekit"
+	],
+	"author": "Lee Charles Laing <lcharleslaing@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"pouchdb": "^8.0.1",
+		"pouchdb-find": "^8.0.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.24.5",
+		"@babel/preset-env": "^7.24.5",
+		"@jest/globals": "^29.7.0",
+		"babel-jest": "^29.7.0",
+		"cross-env": "^7.0.3",
+		"jest": "^29.7.0",
+		"supertest": "^7.0.0"
+	},
+	"type": "module"
+}
